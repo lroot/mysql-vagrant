@@ -8,18 +8,17 @@ mysql-vagrant is a quick way to run mysql locally for development without an ssh
 
 ### Connect to mysql:
 
-- host: 33.33.33.1
+- host: 192.168.1.44 (or mysql-server.local if you update your hosts file)
 - username: root
 - password: root
 
 ### From sequel pro
 
-<img src="sequel-pro.png"/>
+![Sequel Pro](sequel-pro.png)
 
 ### Warning
 
 For development use only, do not use in production.
-Also, make sure your mysql port (3306) is not open on your computer for a local network or in general.
 
 ### License
 
